@@ -11,6 +11,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JMenuItem;
 import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
 
 
 
@@ -142,7 +143,8 @@ L7.setBounds(550, 300, 100,40);L8.setBounds(800, 300, 100, 40);L9.setBounds(40,5
   c.add(L10); c.add(L13); c.add(L14);
   b1.addActionListener(new LB3());  b2.addActionListener(new LB3()); b3.addActionListener(new LB3());
    b4.addActionListener(new LB3()); b5.addActionListener(new LB3()); b6.addActionListener(new LB3());
- 
+ b7.addActionListener(new LB3());b8.addActionListener(new LB3());b9.addActionListener(new LB3());
+ b10.addActionListener(new LB3());b13.addActionListener(new LB3());b14.addActionListener(new LB3());
         }
 
      
